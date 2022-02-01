@@ -45,3 +45,5 @@ Sudoku.prototype.columnChecker = function () {
   }
   return check;
 };
+
+Sudoku.prototype.gridChecker = function () {};
