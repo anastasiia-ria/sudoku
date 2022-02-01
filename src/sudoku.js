@@ -10,4 +10,5 @@ export default function Sudoku() {
     [0, 0, 0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 0],
   ];
+  Sudoku.prototype.sudokuChecker = function () {};
 }
