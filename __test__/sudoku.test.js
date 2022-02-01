@@ -51,4 +51,9 @@ describe("Sudoku", () => {
     ];
     expect(newSudoku.columnChecker()).toEqual(true);
   });
+
+  test("should return false if columns repeat any number 1-9 more than once", () => {
+    const newSudoku = new Sudoku();
+    expect(newSudoku.columnChecker()).toEqual(false);
+  });
 });
