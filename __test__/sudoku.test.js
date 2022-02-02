@@ -72,4 +72,9 @@ describe("Sudoku", () => {
     ];
     expect(newSudoku.gridChecker()).toEqual(true);
   });
+
+  test("should return false if the grid repeats any number 1-9 more than once", () => {
+    const newSudoku = new Sudoku();
+    expect(newSudoku.gridChecker()).toEqual(false);
+  });
 });
